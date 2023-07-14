@@ -21,7 +21,6 @@ bot.onText(/\/start/, (msg) => {
 
   Пример:
   /attack http://example.com 60 100 proxy.txt
-
   `;
   bot.sendMessage(chatId, message);
 });
