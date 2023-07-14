@@ -3,7 +3,7 @@ const fs = require('fs');
 const CloudScraper = require('cloudscraper');
 
 // Замените 'YOUR_TELEGRAM_BOT_TOKEN' на фактический токен вашего бота, полученный от BotFather
-const botToken = '6173423738:AAHgw-Fv3cPVWOpdz19m8n0TfSWf99PI6c4';
+const botToken = '6373154007:AAEpL61CUVJaWzK9Etc3e5EB3enQ5LgNcw4';
 const bot = new TelegramBot(botToken, { polling: true });
 
 let attackInterval = null;
