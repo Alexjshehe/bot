@@ -16,15 +16,12 @@ bot.onText(/\/start/, (msg) => {
 
   Введите /stop, чтобы остановить атаку.
   
-  Введите /start чтобы пользоваться ботом
-
   Чтобы начать атаку, используйте следующую команду:
   /attack <url> <time> <req_per_ip> <proxies>
 
   Пример:
   /attack http://example.com 60 100 proxy.txt
 
-  Убедитесь, что вы предоставляете требуемые параметры: URL, время, req_per_ip и proxies.
   `;
   bot.sendMessage(chatId, message);
 });
